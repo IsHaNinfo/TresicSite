@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Logo from "../assets/Images/Logo.jpeg";
+import { FaXmark,FaBars } from "react-icons/fa6";
+
 import { Link } from 'react-scroll';
 const Navbar = () => {
     const [isMenuOpen,setIsMenuOpen] = useState(false);
@@ -11,7 +13,7 @@ const Navbar = () => {
     }
     useEffect(() => {
         const handleScroll = () =>{
-            if(Window.scrollY>100){
+            if(window.scrollY > 100){
                 setIsSticky(true);
             }else{
                 setIsSticky(false);
@@ -29,20 +31,40 @@ const Navbar = () => {
         {link:"Service",path:"Service"},
         {link:"About",path:"About"},
         {link:"Projects",path:"Projects"},
-
+        {link:"Visson",path:"visson"},
+       
      ]
   return (
         <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
-            <nav>
-                <div className='w-[50px] h-[50px]'>
-                    <a href='' className='text-2x1 font-semibold flex items-center space-x-3'><img src={Logo} alt=''  className='w-10 inline-block items-center'/><span className='text-[#263238]'> Tresic</span></a>
-                    <ul className='md:flex space-x-12 hidden'>
+            <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border bg-white duration-300" : ""}`}>
+                <div className='flex justify-between items-center text-base gap-8'>
+                    <a href='' className='text-2x1 font-semibold flex items-center space-x-3'><img src={Logo} alt=''  className='w-12 inline-block items-center'/><span className='text-[#263238]'> TRESIC</span></a>
+                    <ul className='md:flex space-x-12 hidden cursor-pointer'>
                         {navItems.map((item, index) => (
                             <Link key={index} to={item.path} spy={true} smooth={true} offset={-100} className='block text-base text-gray900 hover:text-brandPrimary first:font-medium'>{item.link}</Link>
                         ))}
                     </ul>
+                    {/* contact us button */}
+                    <div className='space-x-12 hidden lg:flex items-center'>
+                    <button className='bg-brandPrimary text-white py-3 px-5 transition-all duration-300 rounded hover:bg-naturalDGrey' style={{ whiteSpace: 'nowrap' }}>ContactUs</button>
+                    </div>
                     {/* menu button for mobile */}
-                        <div className='md:hidden'></div>
+                        <div className='md:hidden'>
+                                <button 
+                                onClick={toggleMenu}
+                                className='text-neutralDGrey focus:outline-none focus:text-gray-500'>
+                                    {
+                                        isMenuOpen ?(<FaXmark className='h-6 w-6 '/>):(<FaBars className=' h-6 w-6 text-neutralDGrey'/>)
+                                    }
+                                </button>
+                        </div>
+                </div>
+                <div className='flex justify-between items-center text-base gap-8'></div>
+                {/* navItens for mobile devices */}
+                <div className={`space-y-4 px-4 mt-16 py-7 bg-brandPrimary ${isMenuOpen ? "block fixed top-0 right-0 left-0" : " hidden"}`}>
+                {navItems.map((item, index) => (
+                            <Link key={index} to={item.path} spy={true} smooth={true} offset={-100} className='block text-base text-white hover:text-brandPrimary first:font-medium'>{item.link}</Link>
+                        ))}
                 </div>
             </nav>
         </header>
