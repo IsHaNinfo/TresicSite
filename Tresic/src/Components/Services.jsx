@@ -26,14 +26,14 @@ const Services = () => {
             },
             {id:5,
                 title:"Acedamic Report ",
-                description :"Simplify the complex, elevate the mundane. We make technology disappear, leaving only delight",
-                image:"/src/assets/images/uiux.png"    
+                description :"Simplifying the complex, elevating the mundane: Making research accessible and impactful.",
+                image:"/src/assets/images/Acedamic.png"    
             
             },
             {id:6,
                 title:"Mobile App Development",
-                description :"Simplify the complex, elevate the mundane. We make technology disappear, leaving only delight",
-                image:"/src/assets/images/uiux.png"    
+                description :"We make technology disappear, leaving only delight: Creating intuitive and enjoyable mobile experiences",
+                image:"/src/assets/images/Mobile.png"    
             
             },
         ]
@@ -67,20 +67,58 @@ const Services = () => {
             <p className='text-neutralGrey text-1xl'>We’re constantly exploring new and emerging technologies to ensure our international clients receive the most innovative digital products</p>
             <div className="grid h-56 grid-cols-2 gap-2 sm:h-64 xl:h-80 2xl:h-96">
       <Carousel>
-      <img src="/src/assets/images/Java.png" alt="Java" className="h-24 w-24 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-48 lg:w-48 xl:h-64 xl:w-64 object-cover" />
-      <img src="/src/assets/images/React.png" alt="Java" className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-48 lg:w-48 xl:h-64 xl:w-64 object-cover" />
-      <img src="/src/assets/images/Node.png" alt="Java" className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-48 lg:w-48 xl:h-64 xl:w-64 object-cover" />
-      <img src="/src/assets/images/spring.png" alt="Java" className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-48 lg:w-48 xl:h-64 xl:w-64 object-cover" />
-      <img src="/src/assets/images/Html.png" alt="Java" className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-48 lg:w-48 xl:h-64 xl:w-64 object-cover" />
-
+                <img
+                src="/src/assets/images/Java.png"
+                alt="Java"
+                className="h-40 w-40 object-cover"
+            />
+            <img
+                src="/src/assets/images/React.png"
+                alt="React"
+                className="h-40 w-40  object-cover"
+            />
+             <img
+                src="/src/assets/images/spring.png"
+                alt="React"
+                className="h-40 w-40  object-cover"
+            />
+             <img
+                src="/src/assets/images/C.png"
+                alt="React"
+                className="h-40 w-40  object-cover"
+            />
+             <img
+                src="/src/assets/images/Css.png"
+                alt="React"
+                className="h-40 w-40  object-cover"
+            />
       </Carousel>
       <Carousel indicators={false}>
-      <img src="/src/assets/images/Css.png" alt="Java" className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-48 lg:w-48 xl:h-64 xl:w-64 object-cover" />
-      <img src="/src/assets/images/C.png" alt="Java" className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-48 lg:w-48 xl:h-64 xl:w-64 object-cover" />
-      <img src="/src/assets/images/Mysql.png" alt="Java" className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-48 lg:w-48 xl:h-64 xl:w-64 object-cover" />
-      <img src="/src/assets/images/mongodb.png" alt="Java" className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-48 lg:w-48 xl:h-64 xl:w-64 object-cover" />
-      <img src="/src/assets/images/tailwind.png" alt="Java" className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-48 lg:w-48 xl:h-64 xl:w-64 object-cover" />
-
+      <img
+                src="/src/assets/images/Html.png"
+                alt="Java"
+                className="h-40 w-40 object-cover"
+            />
+            <img
+                src="/src/assets/images/Mysql.png"
+                alt="React"
+                className="h-40 w-40  object-cover"
+            />
+             <img
+                src="/src/assets/images/php.png"
+                alt="Java"
+                className="h-40 w-40 object-cover"
+            />
+            <img
+                src="/src/assets/images/mongodb.png"
+                alt="React"
+                className="h-40 w-40  object-cover"
+            />
+             <img
+                src="/src/assets/images/tailwind.png"
+                alt="React"
+                className="h-40 w-40  object-cover"
+            />
       </Carousel>
     </div>
             </div>

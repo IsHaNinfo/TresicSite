@@ -23,7 +23,7 @@ const MyFooter = () => {
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             
             <div>
-              <Footer.Title title="Contact  us" />
+              <Footer.Title title="Contact  us"  className='text-2xl'/>
               <Footer.LinkGroup col className="justify-end">
         <div className="flex items-center space-x-2">
           <FaWhatsapp size={20} /> <Footer.Link href="tel:+0779615553">077 961 5553</Footer.Link>
@@ -39,11 +39,9 @@ const MyFooter = () => {
         </div>
         <Footer.Divider />
         <div className=" sm:flex sm:items-center sm:justify-between">
-        <Footer.Copyright href="#" by="Tresic™" year={2024} />
-        <div className='text-neutralGrey'>
-            <p className='mb-1'> Copyright @2024 Tresic Ltd</p>
-            <p> All Rights Resverd</p>
-          </div>
+        <Footer.Copyright href="#" by="Tresic™" year={2024} /> 
+        <p className='text-neutralGrey'> All Rights Resverd</p>
+        
         </div>
       </div>
     </Footer>
