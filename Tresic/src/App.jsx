@@ -15,10 +15,10 @@ function App() {
     <>
     <Navbar/>
     <Home/>
-    <About/>
-    <Services/>
     
+    <Services/>
     <Project/>
+    <About/>
     <Visson/>
     <MyFooter/>
     </>

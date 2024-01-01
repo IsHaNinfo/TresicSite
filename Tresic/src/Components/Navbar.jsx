@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Logo from "../assets/Images/Logo.jpeg";
+import Logo from "../assets/Images/Logo.png";
 import { FaXmark,FaBars } from "react-icons/fa6";
 
 import { Link } from 'react-scroll';
@@ -30,7 +30,7 @@ const Navbar = () => {
         {link:"Home",path:"home"},
         {link:"Service",path:"Service"},
         {link:"About",path:"About"},
-        {link:"Projects",path:"Projects"},
+        {link:"Portfolio",path:"portfolio"},
         {link:"Visson",path:"visson"},
        
        
