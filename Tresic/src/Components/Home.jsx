@@ -1,7 +1,20 @@
 import React from 'react'
 import { Carousel } from 'flowbite-react';
 import banner1 from "../assets/Images/banner1.png"
+
+
 const Home = () => {
+
+  const handleButtonClick = () => {
+    // Find the element with the 'Service' ID
+    const serviceElement = document.getElementById('Service');
+
+    // Check if the element exists
+    if (serviceElement) {
+      // Scroll to the element
+      serviceElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
    <div className=' bg-neutralSilver ' id="home">
     <div className='px-4 lg:px-14 max-w-screen-2x1 mx-auto min-h-screen h-screen'>
@@ -19,7 +32,7 @@ const Home = () => {
 
                 <p className='text-neutralGrey text-base mb-8'> Where to grow your buisness as Enterprenuer</p>
 
-                <button className='btn-primary'>Explore more</button>
+                <button className='btn-primary' onClick={handleButtonClick}>Explore more</button>
 
           </div>
         </div>
@@ -35,7 +48,7 @@ const Home = () => {
             </h1>
                 <p className='text-neutralGrey text-base mb-8'> Where to grow your buisness as Enterprenuer</p>
 
-                <button className='btn-primary'>Explore more</button>
+                <button className='btn-primary' onClick={handleButtonClick}>Explore more</button>
 
           </div>
         </div>
@@ -51,8 +64,10 @@ const Home = () => {
             </h1>
                 <p className='text-neutralGrey text-base mb-8'> Where to grow your buisness as Enterprenuer</p>
 
-                <button className='btn-primary' >
+                <button className='btn-primary' onClick={handleButtonClick}>
+                 
                  Explore more
+               
                 </button>
 
           </div>

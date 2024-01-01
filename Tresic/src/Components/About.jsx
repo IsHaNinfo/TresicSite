@@ -3,7 +3,7 @@ import AboutImg from "../assets/Images/About.png"
 const About = () => {
   return (
     <div>
-    <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8  bg-neutralSilver' id='About'>
+    <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8  ' id='About'>
         <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12 '>
             <div >
                 <img src={AboutImg} alt='' className='w-[250px] h-[250px]'/>
@@ -14,7 +14,6 @@ const About = () => {
                     Temporibus natus similique vel at, nostrum repudiandae porro.
                      Quo, sit eos molestias eius ipsam, pariatur dignissimos 
                     natus blanditiis cupiditate explicabo impedit iusto?</p>
-                    <button className='btn-primary'>Learn More</button>
             </div>
         </div>
     </div>

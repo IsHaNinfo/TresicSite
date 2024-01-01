@@ -11,7 +11,7 @@ const Visson = () => {
                     Temporibus natus similique vel at, nostrum repudiandae porro.
                      Quo, sit eos molestias eius ipsam, pariatur dignissimos 
                     natus blanditiis cupiditate explicabo impedit iusto?</p>
-                    <button className='btn-primary'>Learn More</button>
+                    
             </div>
             <div >
                 <img src={pana} alt='' className='w-[250px] h-[250px]'/>

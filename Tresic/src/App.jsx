@@ -15,8 +15,9 @@ function App() {
     <>
     <Navbar/>
     <Home/>
-    <Services/>
     <About/>
+    <Services/>
+    
     <Project/>
     <Visson/>
     <MyFooter/>

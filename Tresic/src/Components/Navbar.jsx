@@ -33,7 +33,19 @@ const Navbar = () => {
         {link:"Projects",path:"Projects"},
         {link:"Visson",path:"visson"},
        
+       
      ]
+
+     const handleButtonClick = () => {
+        // Find the element with the 'Service' ID
+        const footerElement = document.getElementById('footer');
+    
+        // Check if the element exists
+        if (footerElement) {
+          // Scroll to the element
+          footerElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
   return (
         <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
             <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border bg-white duration-300" : ""}`}>
@@ -46,7 +58,8 @@ const Navbar = () => {
                     </ul>
                     {/* contact us button */}
                     <div className='space-x-12 hidden lg:flex items-center'>
-                    <button className='bg-brandPrimary text-white py-3 px-5 transition-all duration-300 rounded hover:bg-naturalDGrey' style={{ whiteSpace: 'nowrap' }}>ContactUs</button>
+                    <button className='bg-brandPrimary text-white py-3 px-5 transition-all duration-300 rounded hover:bg-naturalDGrey' style={{ whiteSpace: 'nowrap' }} onClick={handleButtonClick}>
+                        ContactUs</button>
                     </div>
                     {/* menu button for mobile */}
                         <div className='md:hidden'>
