@@ -6,7 +6,7 @@ import { FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 const MyFooter = () => {
   return (
     <Footer container>
-      <div className="w-full shadow-md bg-neutralSilver " id='footer' >
+      <div className="w-full  shadow-lg bg-neutralSilver " id='footer' >
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1 rounded-md ">
 
         <div className=' p-16 rounded-md   items-center justify-center w-[700px] h-[200px] '>
