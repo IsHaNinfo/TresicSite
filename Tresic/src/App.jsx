@@ -8,6 +8,7 @@ import Visson from './Components/Visson'
 import Services from './Components/Services'
 import Project from './Components/Projects'
 import MyFooter from "./Components/MyFooter"
+import AboutUs from './Components/AboutUs'
 function App() {
 
 
@@ -20,6 +21,7 @@ function App() {
     <Project/>
     <About/>
     <Visson/>
+    <AboutUs/>
     <MyFooter/>
     </>
   )

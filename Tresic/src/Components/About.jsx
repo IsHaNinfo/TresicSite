@@ -9,11 +9,8 @@ const About = () => {
                 <img src={AboutImg} alt='' className='w-[250px] h-[250px]'/>
             </div>
             <div className='md:w-3/5 mx-auto'>
-                <h2 className='text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5'>The unseen of spending three years at Pixelgrade</h2>
-                <p className='md:w-3/4 text-sm text-neturalGrey mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Temporibus natus similique vel at, nostrum repudiandae porro.
-                     Quo, sit eos molestias eius ipsam, pariatur dignissimos 
-                    natus blanditiis cupiditate explicabo impedit iusto?</p>
+                <h2 className='text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5'>Mission</h2>
+                <p className='md:w-3/4 text-sm text-neturalGrey mb-8'>Empowering businesses through transformative technology solutions, tailoring strategies to exceed client expectations.</p>
             </div>
         </div>
     </div>
