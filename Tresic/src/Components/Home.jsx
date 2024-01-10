@@ -26,7 +26,7 @@ const Home = () => {
           </div>
           <div  className='md:w-1/2'>
                     <h1 className='text-5xl font-semibold mb-4 text-neutralDGrey md:w-full leading-snug'>
-                    Empowering Tomorrow,Today: <br />
+                    Empowering Tomorrow,Today <br />
                 <span className='text-brandPrimary leading-snug'> Your IT Solutions Partner</span>
             </h1>
 
@@ -44,7 +44,7 @@ const Home = () => {
           <div  className='md:w-1/2'>
           <h1 className='text-5xl font-semibold mb-4 text-neutralDGrey md:w-full leading-snug'>
           Innovate, Integrate, <br />
-                <span className='text-brandPrimary leading-snug'>Elevate: Your IT Journey Begins Here.</span>
+                <span className='text-brandPrimary leading-snug'>Elevate Your IT Journey Begins Here.</span>
             </h1>
                 <p className='text-neutralGrey text-base mb-8'> Where to grow your buisness as Enterprenuer</p>
 
@@ -59,7 +59,7 @@ const Home = () => {
           </div>
           <div  className='md:w-1/2'>
           <h1 className='text-5xl font-semibold mb-4 text-neutralDGrey md:w-full leading-snug'>
-          Code the Future: Unleashing Innovation,<br />
+          Code the Future Unleashing Innovation,<br />
                 <span className='text-brandPrimary leading-snug'> One Line at a Time.</span>
             </h1>
                 <p className='text-neutralGrey text-base mb-8'> Where to grow your buisness as Enterprenuer</p>
