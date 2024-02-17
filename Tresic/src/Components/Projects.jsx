@@ -2,7 +2,6 @@ import React from "react";
 import { Button, Modal } from "flowbite-react";
 import { useState } from "react";
 import { Carousel } from "flowbite-react";
-
 const Project = () => {
   const [openModal, setOpenModal] = useState(false);
   const [currentProject, setCurrentProject] = useState(null);
@@ -120,17 +119,16 @@ const Project = () => {
           </div>
         ))}
       </div>
-
       {/* Single Carousel for the clicked project */}
-      <Modal show={openModal} onClose={() => setOpenModal(false)}>
-        <Modal.Header>
+      <Modal show={openModal} onClose={() => setOpenModal(false)} style={{top:"5%"}}>
+        <Modal.Header >
           <span cla>
             {currentProject &&
               projects.find((project) => project.id === currentProject)?.title}
           </span>
         </Modal.Header>
         <Modal.Body>
-          <div className="h-56 sm:h-40 xl:h-80 2xl:h-96">
+          <div className="h-56 sm:h-30 xl:h-80 2xl:h-96">
             <Carousel>
               {currentProject &&
                 projects
@@ -147,7 +145,7 @@ const Project = () => {
           </div>
         </Modal.Body>
       </Modal>
-    </div>
+      </div>
   );
 };
 
