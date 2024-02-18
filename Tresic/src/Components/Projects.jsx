@@ -57,6 +57,18 @@ const Project = () => {
     },
     {
       id: 5,
+      title: "Wordpress/Spopify",
+      image: "src/assets/projects/Spopify/img_1.png",
+      tech: [
+        "src/assets/projects/Spopify/img_1.png",
+        "src/assets/projects/Spopify/img_2.png",
+        "src/assets/projects/Spopify/img_3.png",
+        "src/assets/projects/Spopify/img_4.png",
+        "src/assets/projects/Spopify/img_5.png",
+      ],
+    },
+    {
+      id: 6,
       title: "UI/UX Design",
       image: "src/assets/projects/UI/UI.png",
       tech: [
@@ -120,8 +132,12 @@ const Project = () => {
         ))}
       </div>
       {/* Single Carousel for the clicked project */}
-      <Modal show={openModal} onClose={() => setOpenModal(false)} style={{top:"5%"}}>
-        <Modal.Header >
+      <Modal
+        show={openModal}
+        onClose={() => setOpenModal(false)}
+        style={{ top: "5%" }}
+      >
+        <Modal.Header>
           <span cla>
             {currentProject &&
               projects.find((project) => project.id === currentProject)?.title}
@@ -145,7 +161,7 @@ const Project = () => {
           </div>
         </Modal.Body>
       </Modal>
-      </div>
+    </div>
   );
 };
 
