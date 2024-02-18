@@ -21,7 +21,7 @@ const MyFooter = () => {
             >
               <img src={Logo} alt="" className="w-12 inline-block" />
               <span className="text-brandPrimary text-2xl">
-                TRESIC TECHNOLOGY
+              TRESIC TECHNOLOGIES
               </span>
             </a>
             <p className="text-brandPrimary font-semibold ml-4">

@@ -25,7 +25,7 @@ const Home = () => {
             <img src={banner1} alt=''/>
           </div>
           <div  className='md:w-1/2'>
-                    <h1 className='text-5xl font-semibold mb-4 text-neutralDGrey md:w-full leading-snug'>
+                    <h1 className='text-4xl font-semibold mb-4 text-neutralDGrey md:w-full leading-snug'>
                     Empowering Tomorrow,Today <br />
                 <span className='text-brandPrimary leading-snug'> Your IT Solutions Partner</span>
             </h1>
@@ -42,7 +42,7 @@ const Home = () => {
             <img src={banner1} alt=''/>
           </div>
           <div  className='md:w-1/2'>
-          <h1 className='text-5xl font-semibold mb-4 text-neutralDGrey md:w-full leading-snug'>
+          <h1 className='text-4xl font-semibold mb-4 text-neutralDGrey md:w-full leading-snug'>
           Innovate, Integrate, <br />
                 <span className='text-brandPrimary leading-snug'>Elevate Your IT Journey Begins Here.</span>
             </h1>
@@ -58,7 +58,7 @@ const Home = () => {
             <img src={banner1} alt=''/>
           </div>
           <div  className='md:w-1/2'>
-          <h1 className='text-5xl font-semibold mb-4 text-neutralDGrey md:w-full leading-snug'>
+          <h1 className='text-4xl font-semibold mb-4 text-neutralDGrey md:w-full leading-snug'>
           Code the Future Unleashing Innovation,<br />
                 <span className='text-brandPrimary leading-snug'> One Line at a Time.</span>
             </h1>

@@ -2,6 +2,31 @@ import React from "react";
 import { Button, Modal } from "flowbite-react";
 import { useState } from "react";
 import { Carousel } from "flowbite-react";
+import web14 from "../assets/projects/web14.png"
+import web12 from "../assets/projects/web12.png"
+import web13 from "../assets/projects/web13.png"
+import web16 from "../assets/projects/web16.png"
+import web17 from "../assets/projects/web17.png"
+import web18 from "../assets/projects/web18.png"
+import web19 from "../assets/projects/web19.png"
+import app from "../assets/projects/Mobile/app.png"
+import app2 from "../assets/projects/Mobile/app 2.png"
+import web7 from "../assets/projects/web (7).png"
+import web8 from "../assets/projects/web (8).png"
+import web9 from "../assets/projects/web (9).png"
+import shopify1 from "../assets/projects/Spopify/img_1.png"
+import shopify2 from "../assets/projects/Spopify/img_2.png"
+import shopify3 from "../assets/projects/Spopify/img_3.png"
+import shopify4 from "../assets/projects/Spopify/img_4.png"
+import shopify5 from "../assets/projects/Spopify/img_5.png"
+import UI1 from "../assets/projects/UI/UI.png"
+import UI2 from "../assets/projects/UI/UI2.png"
+import UI3 from "../assets/projects/UI/UI3.png"
+import UI4 from "../assets/projects/UI/UI4.png"
+import UI5 from "../assets/projects/UI/UI5.png"
+import UI6 from "../assets/projects/UI/UI6.png"
+import UI7 from "../assets/projects/UI/UI7.png"
+
 const Project = () => {
   const [openModal, setOpenModal] = useState(false);
   const [currentProject, setCurrentProject] = useState(null);
@@ -20,65 +45,65 @@ const Project = () => {
     {
       id: 1,
       title: "Shop Fushion Enterprise application",
-      image: "src/assets/projects/web14.png",
+      image:web14,
       tech: [
-        "src/assets/projects/web14.png",
-        "src/assets/projects/web15.png",
-        "src/assets/projects/web12.png",
-        "src/assets/projects/web13.png",
-        "src/assets/projects/web16.png",
-        "src/assets/projects/web17.png",
+        web14,
+        web12,
+        web13,
+        web16,
+        web17,
+
       ],
     },
     {
       id: 2,
       title: "Project Management Platform",
-      image: "src/assets/projects/web18.png",
-      tech: [" src/assets/projects/web18.png", "src/assets/projects/web19.png"],
+      image: web18,
+      tech: [web18, web19],
     },
     {
       id: 3,
       title: "Mobile App Development",
-      image: "src/assets/projects/Mobile/app.png",
+      image: app,
       tech: [
-        "src/assets/projects/Mobile/app.png",
-        "src/assets/projects/Mobile/app 2.png",
+        app,
+        app2,
       ],
     },
     {
       id: 4,
       title: "Power Astronova",
-      image: "src/assets/projects/web (7).png",
+      image:web7,
       tech: [
-        "src/assets/projects/web (7).png",
-        "src/assets/projects/web (8).png",
-        "src/assets/projects/web (9).png",
+        web7,
+        web8,
+        web9,
       ],
     },
     {
       id: 5,
       title: "Wordpress/Spopify",
-      image: "src/assets/projects/Spopify/img_1.png",
+      image: shopify1,
       tech: [
-        "src/assets/projects/Spopify/img_1.png",
-        "src/assets/projects/Spopify/img_2.png",
-        "src/assets/projects/Spopify/img_3.png",
-        "src/assets/projects/Spopify/img_4.png",
-        "src/assets/projects/Spopify/img_5.png",
+        shopify1,
+        shopify2,
+        shopify3,
+        shopify4,
+        shopify5,
       ],
     },
     {
       id: 6,
       title: "UI/UX Design",
-      image: "src/assets/projects/UI/UI.png",
+      image: UI1,
       tech: [
-        "src/assets/projects/UI/UI.png",
-        "src/assets/projects/UI/UI2.png",
-        "src/assets/projects/UI/UI3.png",
-        "src/assets/projects/UI/UI4.png",
-        "src/assets/projects/UI/UI5.png",
-        "src/assets/projects/UI/UI6.png",
-        "src/assets/projects/UI/UI7.png",
+        UI1,
+        UI2,
+        UI3,
+        UI4,
+        UI5,
+        UI6,
+        UI7,
       ],
     },
   ];

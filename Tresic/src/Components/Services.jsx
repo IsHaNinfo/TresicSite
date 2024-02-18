@@ -1,40 +1,53 @@
 import React from 'react'
 import { Carousel } from 'flowbite-react';
+import web from "../assets/images/web.png"
+import Mobile from "../assets/images/Mobile.png"
+import uiux from "../assets/images/uiux.png"
+import cvwriting from "../assets/images/cvwriting.png"
+import graphic from "../assets/images/graphic.png"
+import Acedemic from "../assets/images/Acedamic.png"
+import Java from "../assets/images/Java.png"
+import ReactImg from "../assets/images/React.png"
+import C from "../assets/images/C.png"
+import Css from "../assets/images/Css.png"
+import Mysql from "../assets/images/Mysql.png"
+import php from "../assets/images/php.png"
+import mongodb from "../assets/images/mongodb.png"
 const Services = () => {
     const services =[
         {id:1,
         title:"Web Devlopment",
         description :"Your vision, our code: We collaborate with you to create a website that perfectly reflects your brand",
-        image:"/src/assets/images/web.png"
+        image:web
     },
     {id:2,
         title:"Mobile App Development",
         description :"We make technology disappear, leaving only delight: Creating intuitive and enjoyable mobile experiences",
-        image:"/src/assets/images/Mobile.png"    
+        image:Mobile   
     
     },
     {id:3,
         title:"UI/UX Design",
         description :"Simplify the complex, elevate the mundane. We make technology disappear, leaving only delight",
-        image:"/src/assets/images/uiux.png"    
+        image:uiux    
     
     },
         {id:4,
             title:"CV Writing",
             description :"Land your dream job: Our expert CV writers will help you craft a resume that gets noticed",
-            image:"/src/assets/images/cvwriting.png"
+            image:cvwriting
         }
             ,{id:5,
                 title:"Graphic Design",
                 description :"Make a lasting impression: Our eye-catching designs will help you stand out from the competition",
-                image:"/src/assets/images/graphic.png"    
+                image:graphic   
             
             },
             ,,
             {id:6,
                 title:"Acedamic Report ",
                 description :"Simplifying the complex, elevating the mundane: Making research accessible and impactful.",
-                image:"/src/assets/images/Acedamic.png"    
+                image:Acedemic   
             
             },
            
@@ -70,12 +83,12 @@ const Services = () => {
             <div className="grid h-56 grid-cols-2 gap-4 sm:h-64 xl:h-80 2xl:h-96">
             <Carousel>
         <img
-          src="/src/assets/images/Java.png"
+          src={Java}
           alt="Java"
           className="h-40 w-40 object-cover"
         />
         <img
-          src="/src/assets/images/React.png"
+          src={ReactImg}
           alt="React"
           className="h-40 w-40 object-cover"
         />
@@ -85,12 +98,12 @@ const Services = () => {
           className="h-40 w-40 object-cover"
         />
         <img
-          src="/src/assets/images/C.png"
+          src={C}
           alt="C"
           className="h-40 w-40 object-cover"
         />
         <img
-          src="/src/assets/images/Css.png"
+          src={Css}
           alt="CSS"
           className="h-40 w-40 object-cover"
         />
@@ -103,17 +116,17 @@ const Services = () => {
           className="h-40 w-40 object-cover"
         />
         <img
-          src="/src/assets/images/Mysql.png"
+          src={Mysql}
           alt="MySQL"
           className="h-40 w-40 object-cover"
         />
         <img
-          src="/src/assets/images/php.png"
+          src={php}
           alt="PHP"
           className="h-40 w-40 object-cover"
         />
         <img
-          src="/src/assets/images/mongodb.png"
+          src={mongodb}
           alt="MongoDB"
           className="h-40 w-40 object-cover"
         />
