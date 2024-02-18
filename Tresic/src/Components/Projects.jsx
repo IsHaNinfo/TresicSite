@@ -81,7 +81,7 @@ const Project = () => {
           {" "}
           Engage with our new projects{" "}
         </h2>
-        <p className="text-sm text-neutralDGrey mb-8 md:w-3/4 mx-auto">
+        <p className="text-sm text-neutralDGrey mb-8 md:w-4/4 mx-auto">
           Welcome to our digital space where creativity meets innovation. At
           Tresic Technologies we're passionate about crafting exceptional
           experiences and solutions that leave a lasting impact. With a blend of

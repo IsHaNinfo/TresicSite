@@ -63,7 +63,7 @@ const Navbar = () => {
 
         <div className='space-x-12 hidden lg:flex items-center'>
         <button className='bg-brandPrimary text-white py-3 px-5 transition-all duration-300 rounded hover:bg-white hover:text-brandPrimary' style={{ whiteSpace: 'nowrap' }} onClick={handleButtonClick}>
-            ContactUs
+            Contact us
         </button>
         </div>
 
